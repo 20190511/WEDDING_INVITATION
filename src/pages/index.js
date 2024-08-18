@@ -13,16 +13,20 @@ import Location from "../components/location";
 import CongratulatoryMoney from "../components/congratulatoryMoney";
 import Share from "../components/share";
 import Quote from "../components/quote";
+import Kakao from "../components/kakao"
 import Song from "../assets/song.mp3";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { OmitProps } from "antd/lib/transfer/ListBody";
+import { Header } from "antd/lib/layout/layout";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 // markup
 const { Footer } = Layout;
 
 const Wrapper = styled.div`
-  background: #efebe9;
+  background: #FDF8F8;
   background-image: url(${GroovePaper});
   width: 100%;
 `;
@@ -45,7 +49,21 @@ const IndexPage = () => {
     });
   });
   return (
+    <HelmetProvider >
+
+    <Helmet>
+    <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta property="og:title" content="김창민 & 배혜원 결혼식에 초대합니다." />
+          <meta property="og:description" content="2024.11.09. (토) 오후 3:00 이비스 앰배서더 수원" />
+          <meta property="og:image" content="https://github.com/user-attachments/assets/0ce8b78b-bc43-4c2f-8d34-7a648cc4e688" />
+          <meta property="og:url" content="https://20190511.github.io/" />
+          <meta property="og:type" content="website" />
+          <title>배혜원♡김창민</title>
+    </Helmet>
+    <main>
     <Wrapper>
+      <Kakao />
       <audio autoPlay loop>
         <source src={Song} />
       </audio>
@@ -53,9 +71,7 @@ const IndexPage = () => {
       <Greeting />
       <Gallery />
       <Location />
-      <Quote />
       <CongratulatoryMoney />
-      <Share />
       <Footer
         style={{
           background: "#D7CCC8",
@@ -63,10 +79,15 @@ const IndexPage = () => {
           opacity: 0.6,
           textAlign: "center",
         }}
-      >
-        Copyright © 2022 Shin Jooyoung
+        >
+        From Brother👦🏻Bae Junhyeong ✌🏻‪·͜·✌🏻 
       </Footer>
+      <br />
     </Wrapper>
+    </main>
+
+    </HelmetProvider>
+
   );
 };
 

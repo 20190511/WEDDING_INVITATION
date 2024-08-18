@@ -38,6 +38,11 @@ const Quote = () => {
   return (
     <Wrapper>
       <Image src={Flower} data-aos="fade-up" />
+    </Wrapper>
+  );
+};
+
+/*
       <Content data-aos="fade-up">
         장담하건대. 세상이 다 겨울이어도
         <br />
@@ -50,8 +55,5 @@ const Quote = () => {
         <br />
         <br />
       </Content>
-    </Wrapper>
-  );
-};
-
+*/
 export default Quote;

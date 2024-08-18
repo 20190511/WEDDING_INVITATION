@@ -1,5 +1,6 @@
 :root {
   --title-color: #d97d83;
+  --wedding-color: #dbb8b8;
 }
 * {
   font-family: "Noto Serif KR", serif, -apple-system, BlinkMacSystemFont,
@@ -61,10 +62,151 @@
 
 /* 폰트 적용 */
 @font-face {
-  font-family: "mom_to_daughter";
-  src: url("../assets/fonts/mom_to_daughter.woff2") format("woff2"),
-    url("../assets/fonts/mom_to_daughter.woff") format("woff");
+    font-family: 'mom_to_daughter';
+    src: url('../assets/font/mom_to_daughter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+  
+@font-face {
+  font-family: "Cafe24Behappy";
+  src: url("../assets/font/Cafe24Behappy.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "lovu";
+  src: url("../assets/font/Cafe24Lovingu.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cafe24Oneprettynight";
+  src: url("../assets/font/Cafe24Oneprettynight-v2.0.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cafe24Singingstar";
+  src:url("../assets/font/Cafe24Shiningstar.woff") format("woff"),
+    url("../assets/font/Cafe24Shiningstar.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SuseongDotum";
+  src:url("../assets/font/SuseongDotum.woff") format("woff"),
+    url('../assets/font/SuseongDotum.woff2') format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: "MapoApage";
+  src:url("../assets/font/MapoAgape.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "MapoBackpacking";
+  src:url("../assets/font/MapoBackpacking.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "MapoDacapo";
+  src:url("../assets/font/MapoDacapo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MapoDPP";
+  src:url("../assets/font/MapoDPP.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MapoFlowerIsland";
+  src:url("../assets/font/MapoFlowerIsland.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MapoGoldenPier";
+  src:url("../assets/font/MapoGoldenPier.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "MapoHongdaeFreedom";
+  src:url("../assets/font/MapoHongdaeFreedom.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "MapoNaru";
+  src:url("../assets/font/MapoMaponaru.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MapoPeacefull";
+  src:url("../assets/font/MapoPeacefull.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'GowunBatang';
+    src: url('../assets/font/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunDodum';
+    src: url('../assets/font/GowunDodum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kopuro';
+    src: url('../assets/font/kopuro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

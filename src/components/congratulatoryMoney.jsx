@@ -1,33 +1,30 @@
-import React, { useState } from "react";
 import { Button, Divider, message, Modal } from "antd";
-import { CheckCircleTwoTone } from "@ant-design/icons";
-import styled from "styled-components";
+import React, { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
-import Flower from "../assets/flower3.png";
-import AccountImg from "../assets/accountImg.png"
-import AccountImg2 from "../assets/accountImg2.png"
+import styled from "styled-components";
 import {
-  GROOM_NAME,
-  GROOM_ACCOUNT_NUMBER,
-  GROOM_FATHER_NAME,
-  GROOM_FATHER_ACCOUNT_NUMBER,
-  GROOM_MOTHER_NAME,
-  GROOM_MOTHER_ACCOUNT_NUMBER,
-  BRIDE_NAME,
-  BRIDE_ACCOUNT_NUMBER,
-  BRIDE_FATHER_NAME,
-  BRIDE_FATHER_ACCOUNT_NUMBER,
-  BRIDE_MOTHER_NAME,
-  BRIDE_MOTHER_ACCOUNT_NUMBER,
-  DefaltSubtitle,
-  WEDDING_PINK,
-  GROOM_MOTHER_ACCOUNT_BANK,
-  GROOM_ACCOUNT_BANK,
-  GROOM_FATHER_ACCOUNT_BANK,
   BRIDE_ACCOUNT_BANK,
-  BRIDE_MOTHER_ACCOUNT_BANK,
+  BRIDE_ACCOUNT_NUMBER,
   BRIDE_FATHER_ACCOUNT_BANK,
+  BRIDE_FATHER_ACCOUNT_NUMBER,
+  BRIDE_FATHER_NAME,
+  BRIDE_MOTHER_ACCOUNT_BANK,
+  BRIDE_MOTHER_ACCOUNT_NUMBER,
+  BRIDE_MOTHER_NAME,
+  BRIDE_NAME,
+  DefaltSubtitle,
+  GROOM_ACCOUNT_BANK,
+  GROOM_ACCOUNT_NUMBER,
+  GROOM_FATHER_ACCOUNT_BANK,
+  GROOM_FATHER_ACCOUNT_NUMBER,
+  GROOM_FATHER_NAME,
+  GROOM_MOTHER_ACCOUNT_BANK,
+  GROOM_MOTHER_ACCOUNT_NUMBER,
+  GROOM_MOTHER_NAME,
+  GROOM_NAME
 } from "../../config";
+import AccountImg from "../assets/accountImg.png";
+import AccountImg2 from "../assets/accountImg2.png";
 
 const Wrapper = styled.div`
   font-family:mom_to_daughter;

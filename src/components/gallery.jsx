@@ -1,21 +1,12 @@
-import React from "react";
-import ImageGallery from "react-image-gallery";
 import { Divider } from "antd";
+import React from "react";
+import styled from "styled-components";
 import {
   DefaltSubtitle
-} from "../../config"
-import styled from "styled-components";
+} from "../../config";
 import MyImageGallery from "./GalleryClick";
 
 import GalleryPhoto1 from "../assets/Wedding/1.jpg";
-import GalleryPhoto2 from "../assets/Wedding/2.jpg";
-import GalleryPhoto3 from "../assets/Wedding/3.jpg";
-import GalleryPhoto4 from "../assets/Wedding/4.jpg";
-import GalleryPhoto5 from "../assets/Wedding/5.jpg";
-import GalleryPhoto6 from "../assets/Wedding/6.jpg";
-import GalleryPhoto7 from "../assets/Wedding/7.jpg";
-import GalleryPhoto8 from "../assets/Wedding/8.jpg";
-import GalleryPhoto9 from "../assets/Wedding/9.jpg";
 import GalleryPhoto10 from "../assets/Wedding/10.jpg";
 import GalleryPhoto11 from "../assets/Wedding/11.jpg";
 import GalleryPhoto12 from "../assets/Wedding/12.jpg";
@@ -26,7 +17,15 @@ import GalleryPhoto16 from "../assets/Wedding/16.jpg";
 import GalleryPhoto17 from "../assets/Wedding/17.jpg";
 import GalleryPhoto18 from "../assets/Wedding/18.jpg";
 import GalleryPhoto19 from "../assets/Wedding/19.jpg";
+import GalleryPhoto2 from "../assets/Wedding/2.jpg";
 import GalleryPhoto20 from "../assets/Wedding/20.jpg";
+import GalleryPhoto3 from "../assets/Wedding/3.jpg";
+import GalleryPhoto4 from "../assets/Wedding/4.jpg";
+import GalleryPhoto5 from "../assets/Wedding/5.jpg";
+import GalleryPhoto6 from "../assets/Wedding/6.jpg";
+import GalleryPhoto7 from "../assets/Wedding/7.jpg";
+import GalleryPhoto8 from "../assets/Wedding/8.jpg";
+import GalleryPhoto9 from "../assets/Wedding/9.jpg";
 
 
 const Wrapper = styled.div`

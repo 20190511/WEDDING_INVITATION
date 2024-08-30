@@ -1,0 +1,31 @@
+/* FixedAudioControl.css */
+
+.fixed-audio-control {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.0); /* 반투명 배경 */
+}
+
+.audio-control-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+}
+
+.audio-control-button {
+    border: none;
+    background: none;
+    color: palevioletred;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}

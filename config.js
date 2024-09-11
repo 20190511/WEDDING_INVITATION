@@ -5,8 +5,8 @@ export const KAKAOTALK_API_TOKEN = "bfcae28709ce641103c193e572af4738";
 export const KAKAOTALK_SHARE_IMAGE = 
   "https://github.com/user-attachments/assets/028f7b26-b4d3-4dad-bfdc-67c0103e3f14";
 
-export const WEDDING_DATE = "2024.11.09. 토요일 오후 3:00"
-export const WEDDING_LOCATION = "이비스 앰배서더 수원";
+export const WEDDING_DATE = "2024.11.09 (토) 오후 3:00"
+export const WEDDING_LOCATION = "이비스 앰배서더 호텔 수원";
 
 export const GROOM_NAME = "김창민";
 export const GROOM_ACCOUNT_NUMBER = "110355616523";
